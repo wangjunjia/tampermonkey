@@ -69,6 +69,10 @@
     themeValue = !themeValue
     toggleDarkMode()
   }
+  themeBtn.ontouchmove = function (e) {
+    themeBtn.style.left = e.touches[0].pageX - 15 + 'px'
+    themeBtn.style.top = e.touches[0].pageY - 15 + 'px'
+  }
   document.body.appendChild(themeBtn)
 
   themeValue = localStorage.getItem(themeKey) == 'true'
