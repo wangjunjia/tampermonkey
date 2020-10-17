@@ -2,9 +2,9 @@
 // @name         swagger-ui.copy.js
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  click method  copy swagger-ui url
+// @description  click method copy api url
 // @author       You
-// @match        http://**/swagger-ui.html // swagger-ui 地址
+// @match        *://**/swagger-ui.html // swagger-ui 地址
 // @grant        none
 // ==/UserScript==
 
