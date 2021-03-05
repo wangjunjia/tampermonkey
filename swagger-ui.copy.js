@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  click method to copy url
 // @author       You
-// @match        *://**/swagger-ui.html
+// @match        *://**/*/swagger-ui.html
 // @grant        none
 // ==/UserScript==
 
